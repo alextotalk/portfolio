@@ -1,0 +1,172 @@
+.main{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://images.alphacoders.com/645/thumb-1920-64553.jpg);
+    background-size: cover;
+    background-position: center;
+    perspective: 50px;
+    background-attachment: fixed;
+    transform-style: preserve-3d;
+    padding-bottom: 100px;
+}
+.main:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.7;
+}
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.greeting{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 120px 0 100px;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.hello{
+    color: #909090;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+.name{
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    line-height: 56px;
+    text-align: left;
+    margin-top: 15px;
+}
+.whoAmI{
+    font-family: "Montserrat",sans-serif;
+    color: #909090;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    line-height: 24px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    background: linear-gradient(45deg, #D585FF, #00FFEE);
+    height: 100vh;
+}
+
+.card {
+    width: 325px;
+    height: 426px;
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.card:hover .front {
+    transform: perspective(600px) rotateY(-180deg);
+}
+.card:hover .back {
+    transform: perspective(600px) rotateY(0);
+}
+
+.front,
+.back {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transition: transform .5s ease;
+    border-radius: 10px;
+    background: linear-gradient(#333, #232323);
+}
+
+.front {
+    background-image: url('../../common/images/Колясик2.png');
+    background-size: cover;
+    background-color: #656565;
+    transform: perspective(600px) rotateY(0);
+}
+.front img {
+    width: 100%;
+    height: auto;
+}
+
+.back {
+    transform: perspective(600px) rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.back h1 {
+    color: #FFF;
+    font-size: 24px;
+}
+.back h1 span {
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 5px 0 10px;
+}
+.back .socials {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.back .socials a {
+    color: #444;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 50%;
+    transition: .4s ease;
+}
+.back .socials a:hover {
+    background-color: #444;
+    color: #fff;
+}
+@media (max-width: 1080px) {
+    .container {
+        height: 800px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .card{
+        top: 65%;
+    }
+}
+@media (max-width: 770px) {
+    .name{
+        text-align: center;
+    }
+}
+@media (max-width: 410px) {
+    .card{
+        margin-top: 60px;
+    }
+}

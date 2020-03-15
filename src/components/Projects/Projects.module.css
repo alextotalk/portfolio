@@ -1,0 +1,171 @@
+
+.myProjects{
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36pt;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    background: transparent url(http://themes.dhrubok.website/porfo/wp-content/uploads/2017/10/title-bg-1.png) 0 0/auto repeat-y scroll;
+}
+.projectsBlock{
+    background-color: #232323;
+    margin: 0;
+    padding: 120px 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.project {
+    position: relative;
+    padding: 170px 20px 20px;
+    box-sizing: border-box;
+    color: #fff;
+    width: 230px;
+    min-height: 340px;
+    cursor: pointer;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+
+.project h2 {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    margin: 0;
+    padding: 0;
+    font-size: 150px;
+    line-height: 1.1;
+    color: rgba(255, 255, 255, 0.06);
+    transition: .5s;
+}
+.project h3 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+.project p {
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+.project button {
+    cursor: pointer;
+    position: relative;
+    width: 70%;
+    height: 25%;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: .5s;
+    transform: translatey(-40px);
+    opacity: 0;
+    visibility: hidden;
+    font-size: 12px;
+    z-index: 1;
+}
+.project button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+.project button:hover {
+    color: #000;
+    background-color: #fff;
+
+}
+.project button:hover a {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects {
+    position: relative;
+    display: flex;
+    margin: 50px 40px;
+}
+.projects:hover .project h2 {
+    top: 10px;
+    color: #00FFEE;
+}
+.projects:hover .project button {
+    transform: translate(0);
+    opacity: 1;
+    visibility: visible;
+}
+.project:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.06);
+}
+.projects:before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    background-color: #fff;
+    transform: skew(2deg, 2deg);
+    z-index: 1;
+}
+.projects:nth-child(1):before {
+    background: linear-gradient(#000000, #121212);
+}
+.projects:nth-child(2):before {
+    background: linear-gradient(#000000, #121212);
+}
+.projects:nth-child(3):before {
+    background: linear-gradient(#000000, #121212);
+    /*background: linear-gradient(#af36ff, #ff0070);*/
+}
+.projects:nth-child(4):before {
+    background: linear-gradient(#000000, #121212);
+}
+.projects:nth-child(5):before {
+    background: linear-gradient(#000000, #121212);
+}
+.projects:nth-child(6):before {
+    background: linear-gradient(#000000, #121212);
+}
+.projects:nth-child(7):before {
+    background: linear-gradient(#000000, #121212);
+}
+
+
+/*до тех пор пока ширина 500 то применяем стили в скобках*/
+@media (max-width: 500px) {
+    .img {
+        width: 300px;
+    }
+}

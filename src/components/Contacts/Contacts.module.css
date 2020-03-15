@@ -1,0 +1,87 @@
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    padding: 100px 0;
+}
+.container{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    height: 146px;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 10px;
+}
+.input textarea{
+    color: #aaaaaa;
+    background: #000000;
+    font-size: 15px;
+    border: 1px solid #606060;
+    padding: 16px 16px 16px 16px;
+    resize: none;
+    height: 125px;
+
+}
+.input input{
+    color: #aaaaaa;
+    background: #000000;
+    font-size: 15px;
+    height: 20px;
+    border: 1px solid #606060;
+    padding: 16px 16px 16px 16px;
+}
+.spanContacts{
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36pt;
+    font-weight: 600;
+    background: transparent url(http://themes.dhrubok.website/porfo/wp-content/uploads/2017/10/title-bg-1.png) 0 0/auto repeat-y scroll;
+}
+
+.buttonSend {
+    font-family: "Monserrat", sans-serif;
+    margin: 0 auto;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 0 49px rgba(0, 0, 0, 0.8);
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 2px solid #ffffff;
+    padding: 14px 66px 14px 62px;
+}
+.buttonSend:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.formItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0;
+}
+
+@media (max-width: 600px) {
+    .formItems{
+        flex-direction: column;
+    }
+    .input{
+        width: 100%;
+    }
+    .input textarea{
+        margin-top: 38px;
+    }
+}

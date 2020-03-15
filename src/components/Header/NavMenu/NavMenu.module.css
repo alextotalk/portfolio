@@ -1,0 +1,13 @@
+.navMenu{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    font: menu;
+}
+.link:hover{
+    color: #00FFEE;
+}

@@ -1,0 +1,100 @@
+.skillsBlock {
+    display: flex;
+    justify-content: center;
+    background-color: #121212;
+    padding: 120px 0 100px;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.skills {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+}
+.reactLogoImage .icon{
+    overflow: visible;
+    width: 131px;
+    color: #00fdfd;
+    height: 111px;
+}
+.jsLogoImage .icon{
+    overflow: visible;
+    width: 131px;
+    color: #00fdfd;
+    height: 111px;
+}
+
+.htmlLogoImage .icon{
+    overflow: visible;
+    width: 131px;
+    color: #00fdfd;
+    height: 111px;
+}
+.cssLogoImage .icon{
+    overflow: visible;
+    width: 131px;
+    color: #00fdfd;
+    height: 111px;
+}
+.gitLogoImage .icon{
+    overflow: visible;
+    width: 131px;
+    color: #00fdfd;
+    height: 111px;
+}
+.typeScriptLogoImage{
+    overflow: visible;
+    width: 100px;
+    color: #00fdfd;
+    height: 113px;
+}
+
+.reduxLogoImage{
+    overflow: visible;
+    width: 100px;
+    color: #00fdfd;
+    height: 113px;
+}
+
+
+
+.spanMySkills {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 70px;
+    font-size: 36pt;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    background: transparent url(http://themes.dhrubok.website/porfo/wp-content/uploads/2017/10/title-bg-1.png) 0 0/auto repeat-y scroll;
+}
+
+.nameOfSkill {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 20pt;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.descriptionOfSkill {
+    font-family: "Roboto", sans-serif;
+    font-size: 10pt;
+    text-align: center;
+}

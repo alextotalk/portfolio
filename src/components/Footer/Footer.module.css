@@ -1,0 +1,169 @@
+/*
+.footer{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+
+}
+*/
+
+/*.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    background: linear-gradient(171deg, rgba(15,9,148,1) 39%, rgba(19,0,36,1) 60%);
+    min-height: 100vh;
+    background: linear-gradient(45deg, #ee0979, #ff6a00);
+}
+
+.container {
+    display: flex;
+    list-style: none;
+}
+.container li {
+    margin: 10px;
+}
+.container a {
+    text-decoration: none;
+    background-color: #f1f1f1;
+    color: #ff2626;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30%;
+    box-shadow: -5px 5px 20px -5px #010101;
+    position: relative;
+    overflow: hidden;
+}
+.container a i {
+    font-size: 34px;
+    transition: .3s ease;
+}
+.container a:before {
+    position: absolute;
+    content: '';
+    width: 120%;
+    height: 120%;
+    background-color: #ff2626;
+    left: -110%;
+    top: 90%;
+    transform: rotate(45deg);
+}
+.container a:hover i {
+    transform: scale(1.3);
+    color: #f1f1f1;
+}
+.container a:hover:before {
+    animation-name: hover;
+    animation-duration: .6s;
+    top: -10px;
+    left: -10px;
+}
+
+@keyframes hover {
+    0% {
+        top: -110px;
+        left: 90px;
+    }
+    50% {
+        top: 10px;
+        left: -30px;
+    }
+    100% {
+        top: -10px;
+        left: -10px;
+    }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.imgBlock{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.instaLogo{
+    background-image: url("./images/instaLogo.png");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.tgLogo{
+    background-image: url("./images/tgLogo.png");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.viberLogo{
+    background-image: url("./images/viberLogo.svg");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.vkLogo{
+    background-image: url("./images/vkLogo.svg");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.imgBlock:hover .instaLogo,
+.imgBlock:hover .tgLogo,
+.imgBlock:hover .viberLogo,
+.imgBlock:hover .vkLogo{
+    box-shadow: 0px 0px 5px 5px #09d3ac;
+}
+
+
+.spanInitials{
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    font-weight: 600;
+    text-align: center;
+}
+.spanEndFooter{
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 10pt;
+    font-weight: 300;
+}*/
