@@ -1,7 +1,7 @@
 import React from 'react';
 /*import styles from './Main.module.css';*/
 import './Main.css'
-import photo from '../../common/images/Колясик2.png'
+// import photo from '../../common/images/'
 
 
 function Main() {
@@ -13,7 +13,7 @@ function Main() {
             <div className="container">
                 <div className="greeting">
                     <span className="hello">Hello!</span>
-                    <span className="name">I'm Nikolas Fitkovich</span>
+                    <span className="name">I'm Zaiats Aleksei</span>
                     <span className="whoAmI">FRONTEND DEVELOPER</span>
                 </div>
 
@@ -23,16 +23,16 @@ function Main() {
                         <div className="back">
                             <div className="content">
                                 <h1>
-                                    Fitkovich Nikolas
+                                    Zaiats Aleksei
                                     <span>Frontend Developer</span>
                                 </h1>
                                 <ul className="socials">
                                     <li>
-                                        <a href="https://vk.com/volleymen" target='_blank'><i className="fa fa-vk"></i></a>
-                                        <a href="https://www.instagram.com/nikola10fit_/" target='_blank'><i className="fa fa-instagram"></i></a>
-                                        <a href="https://github.com/fitkovich1" target='_blank'><i className="fa fa-github"></i></a>
-                                        <a href="https://t.me/Fitkovich_Nikolai" target='_blank'><i className="fa fa-telegram"></i></a>
-                                        <a href="https://wa.me/375292746603" target='_blank'><i className="fa fa-whatsapp"></i></a>
+                                        <a href="https://vk.com/aleksey_zayats" target='_blank'> <i className="fa fa-vk"></i> </a>
+                                        <a href="https://www.facebook.com/Aleksei.Zayets" target='_blank'> <i className="fa fa-facebook"></i> </a>
+                                        <a href="https://t.me/Zaiats_Akeksei" target='_blank'> <i className="fa fa-telegram"></i> </a>
+                                        <a href="https://github.com/alexooua" target='_blank'> <i className="fa fa-github"></i> </a>
+                                        <a href="viber://chat?number=+380932077941" target='_blank'> <i className="fa fa-whatsapp"></i> </a>
                                     </li>
                                 </ul>
                             </div>

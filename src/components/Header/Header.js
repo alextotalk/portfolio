@@ -10,7 +10,7 @@ function Header() {
     return (
         <div className={styles.header}>
             <div className={styles.logo}>
-                <FontAwesomeIcon className={styles.icon} icon={faDribbble}/>
+                <FontAwesomeIcon className={styles.icon} icon={faReact}/>
             </div>
             <div className={styles.container}>
                 <NavMenu/>

@@ -102,7 +102,7 @@
 }
 
 .front {
-    background-image: url('../../common/images/Колясик2.png');
+    background-image: url('../../common/images/mi3.jpg');
     background-size: cover;
     background-color: #656565;
     transform: perspective(600px) rotateY(0);
