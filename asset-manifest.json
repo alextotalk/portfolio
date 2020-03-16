@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ce7abf88.chunk.css",
+    "main.js": "/portfolio/static/js/main.64e6ac90.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.64e6ac90.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.af0b07c5.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.af0b07c5.js.map",
+    "static/js/2.5dd35f00.chunk.js": "/portfolio/static/js/2.5dd35f00.chunk.js",
+    "static/js/2.5dd35f00.chunk.js.map": "/portfolio/static/js/2.5dd35f00.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.c1acf9ae800db0297d71c2bb8c8f254b.js": "/portfolio/precache-manifest.c1acf9ae800db0297d71c2bb8c8f254b.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.ce7abf88.chunk.css.map": "/portfolio/static/css/main.ce7abf88.chunk.css.map",
+    "static/js/2.5dd35f00.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5dd35f00.chunk.js.LICENSE.txt",
+    "static/media/Main.css": "/portfolio/static/media/mi3.3addfbd0.jpg",
+    "static/media/Колясик2.png": "/portfolio/static/media/Колясик2.ebb651ec.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af0b07c5.js",
+    "static/js/2.5dd35f00.chunk.js",
+    "static/css/main.ce7abf88.chunk.css",
+    "static/js/main.64e6ac90.chunk.js"
+  ]
+}
