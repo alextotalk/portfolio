@@ -5,7 +5,7 @@ function Contacts() {
   return (
     <div className={styles.contacts} id="3">
       <form className={styles.container}
-            action="https://formspree.io/xbjoodrz"
+            action="https://formspree.io/xzbjobrd"
             method="POST"
       >
         <span className={styles.spanContacts}>Contacts</span>
