@@ -31,8 +31,8 @@ function Main() {
                                         <a href="https://vk.com/aleksey_zayats" target='_blank'> <i className="fa fa-vk"></i> </a>
                                         <a href="https://www.facebook.com/Aleksei.Zayets" target='_blank'> <i className="fa fa-facebook"></i> </a>
                                         <a href="https://t.me/Zaiats_Akeksei" target='_blank'> <i className="fa fa-telegram"></i> </a>
-                                        <a href="https://github.com/alexooua" target='_blank'> <i className="fa fa-github"></i> </a>
-                                        <a href="viber://chat?number=+380932077941" target='_blank'> <i className="fa fa-whatsapp"></i> </a>
+                                        <a href="https://github.com/alextotalk" target='_blank'> <i className="fa fa-github"></i> </a>
+                                        <a href="viber://chat?number=+380966635434" target='_blank'> <i className="fa fa-viber"></i> </a>
                                     </li>
                                 </ul>
                             </div>
